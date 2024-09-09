@@ -1,5 +1,5 @@
 {
-  "name": "harpoon",
+  "name": "harpoondemo",
   "version": "1.0.0",
   "description": "A simple Node.js app to run on Docker",
   "main": "server.js",
