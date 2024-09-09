@@ -1,4 +1,4 @@
-# Travis CI it Harpoon 
+# Travis CI with Harpoon 
 This demonstrates how Travis CI works with Harpoon. 
 
 ## Usage 
