@@ -20,7 +20,6 @@ This is my `.travis.yml`:
 
 ```yaml
 language: generic
-os: linux
 dist: focal
 
 cache:
