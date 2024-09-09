@@ -9,9 +9,6 @@ cache:
 before_install:
   - sudo apt-get update
 
-before_script:
-  - git clone $TRAVIS_BUILD_DIR $TRAVIS_BUILD_DIR
-
 script:
   - echo "$HARPOON_API_TOKEN" | docker login https://registry.harpooncorp.com -u atest --password-stdin
   - docker build --platform linux/amd64 -t harpoondemo .
