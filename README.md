@@ -1,5 +1,7 @@
+[![Build Status](https://app.travis-ci.com/Montana/travis-harpoon.svg?token=U865GtC2ptqX3Ezf3Fzb&branch=master)](https://app.travis-ci.com/Montana/travis-harpoon)
+
 # Travis CI with Harpoon 
-This demonstrates how Travis CI works with Harpoon. 
+This demonstrates how Travis CI works with Harpoon. (https://www.harpoon.io/)
 
 ## Usage 
 
@@ -51,7 +53,7 @@ Just go to the dropdown on the left-hand side, select "Harpoon," and then search
 
 ## Author 
 
->Michael Mendy 
+>Michael Mendy. September, 2024. 
 
 
 
