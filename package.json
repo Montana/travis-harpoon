@@ -1,7 +1,7 @@
 {
   "name": "harpoondemo",
   "version": "1.0.0",
-  "description": "A simple Node.js app to run on Docker",
+  "description": "Travis CI pushing to Harpoon",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
