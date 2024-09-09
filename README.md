@@ -46,7 +46,7 @@ Once you see a successful push, go to Harpoon, and you can search for the image 
 
 Just go to the dropdown on the left-hand side, select "Harpoon," and then search. You should see your project, then drag and drop it to the stages screen, it should look like this: 
 
-<img width="682" alt="Screenshot 2024-09-09 at 12 39 15 PM" src="https://github.com/user-attachments/assets/53a97dba-5399-4fd2-82dc-4e4ce4b517ea">
+<img width="977" alt="Screenshot 2024-09-09 at 2 10 10 PM" src="https://github.com/user-attachments/assets/21611865-5264-4494-8e0d-509d7e850011">
 
 <br>That's it. You've used Travis CI with Harpoon.</br>
 
