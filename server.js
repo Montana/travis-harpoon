@@ -1,12 +1,29 @@
-const http = require('http');
+let http = require('http');
 
-const server = http.createServer((req, res) => {
+let server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
   res.end('Hello, World!\n');
 });
 
-const port = 3000;
-server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}/`);
-});
+let port = 3000;
+
+function startServer() {
+  return new Promise((resolve, reject) => {
+    server.listen(port, (err) => {
+      if (err) {
+        reject(err); 
+      } else {
+        resolve(`Server running at http://localhost:${port}/`); 
+      }
+    });
+  });
+}
+
+startServer()
+  .then((message) => {
+    console.log(message);
+  })
+  .catch((error) => {
+    console.error('Error starting server:', error);
+  });
