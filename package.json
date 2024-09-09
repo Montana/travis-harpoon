@@ -1,7 +1,7 @@
 {
   "name": "harpoondemo",
   "version": "1.0.0",
-  "description": "Travis CI pushing to Harpoon",
+  "description": "Travis CI and Harpoon integration.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
