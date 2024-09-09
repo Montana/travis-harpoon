@@ -28,6 +28,7 @@ cache:
 
 before_install:
   - sudo apt-get update
+  - uname -r 
 
 script:
   - echo "$HARPOON_API_TOKEN" | docker login https://registry.harpooncorp.com -u montana --password-stdin
