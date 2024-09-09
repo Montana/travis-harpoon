@@ -47,7 +47,7 @@ Just go to the dropdown on the left-hand side, select "Harpoon," and then search
 
 <img width="682" alt="Screenshot 2024-09-09 at 12 39 15 PM" src="https://github.com/user-attachments/assets/53a97dba-5399-4fd2-82dc-4e4ce4b517ea">
 
-That's it. You've used Travis CI with Harpoon. 
+<br>That's it. You've used Travis CI with Harpoon.</br>
 
 ## Author 
 
