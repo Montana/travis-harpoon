@@ -1,7 +1,10 @@
 [![Build Status](https://app.travis-ci.com/Montana/travis-harpoon.svg?token=U865GtC2ptqX3Ezf3Fzb&branch=master)](https://app.travis-ci.com/Montana/travis-harpoon)
 
 # Travis CI with Harpoon 
-This demonstrates how Travis CI works with Harpoon. (https://www.harpoon.io/).
+
+<img width="602" alt="Screenshot 2024-09-09 at 2 51 19 PM" src="https://github.com/user-attachments/assets/64cd689d-9689-4423-bf1d-5b98fabe387a">
+
+<br>This demonstrates how Travis CI works with Harpoon. (https://www.harpoon.io/).</br>
 
 ## Usage 
 
