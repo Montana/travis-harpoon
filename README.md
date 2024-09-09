@@ -49,6 +49,10 @@ Just go to the dropdown on the left-hand side, select "Harpoon," and then search
 
 That's it. You've used Travis CI with Harpoon. 
 
+## Author 
+
+>Michael Mendy 
+
 
 
 
