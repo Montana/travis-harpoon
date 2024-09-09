@@ -38,7 +38,6 @@ script:
 branches:
   only:
     - master
- Copy travis-harpoon:.travis.yml
 ```
 Once you see a successful push, go to Harpoon, and you can search for the image in the harpoon registry and drag it onto the graph.
 
