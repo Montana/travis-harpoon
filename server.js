@@ -1,4 +1,5 @@
 let http = require('http');
+let axios = require('axios');
 
 let server = http.createServer((req, res) => {
   res.statusCode = 200;
@@ -12,9 +13,9 @@ function startServer() {
   return new Promise((resolve, reject) => {
     server.listen(port, (err) => {
       if (err) {
-        reject(err); 
+        reject(err);
       } else {
-        resolve(`Server running at http://localhost:${port}/`); 
+        resolve(`Server running at http://localhost:${port}/`);
       }
     });
   });
@@ -23,6 +24,15 @@ function startServer() {
 startServer()
   .then((message) => {
     console.log(message);
+
+    axios.get('http://localhost:3000')
+      .then(response => {
+        console.log('Axios GET request response:', response.data);
+      })
+      .catch(error => {
+        console.error('Error making Axios GET request:', error);
+      });
+
   })
   .catch((error) => {
     console.error('Error starting server:', error);
