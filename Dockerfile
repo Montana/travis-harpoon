@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16 # Any reason we can't update this?
 WORKDIR ./
 COPY package*.json ./
 RUN npm install --production
